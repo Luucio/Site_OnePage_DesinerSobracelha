@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --Cor_Preto: #000000;
+    --Cor_Branco: #FFFFFF;
+    --Cor_RosaPrinciapal_Normal: #FA61EB;
+    --CorFonte_RosaSecundario_Normal: #C775BF;
+    --Cor_RosaPrinciapal_Dark: #BC49B0;
+    --Cor_RosaPrinciapal_DarkHover: #963A8D;
+    --Cor_RosaPrinciapal_DarkActive:#702C6A;
+    --Cor_RosaPrinciapal_Darker: #582252;
+    --Cor_RosaPrinciapal_LightHover: #FEE7FC;
+    --Cor_RosaPrinciapal_LightActive: #FDCEF9;
+}
