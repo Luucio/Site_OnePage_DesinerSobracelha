@@ -1,65 +1,16 @@
 @import url(_variables.css);
+@import url(./styles/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-.header{
-    display: flex;
-    height: 64px;
-    background-color: var(--Cor_RosaPrinciapal_Normal);
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 25.17px;
-    gap: 64.17px;
-}
-
-.header__logo{
-    width: 163px;
-    height: 56px;
-}
-
-.header__menu{
-    width: 36.67px;
-    height: 28px;
-}
-
-.header__topicos__itens{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    color: var(--Cor_Branco);
-    font-family: 'Poppins';
-
-}
-
-.header__topicos{
-    display: none;
-    position: absolute;
-    top: 8%;
-    left: 0px;
-    width: 60vw;
-    background-color: var(--Cor_RosaPrinciapal_Normal);
-    justify-content: center;
-    padding: 15px 10px ;
-    font-weight: 500;
-}
-
-.header_buttonIndex{
-    display: none;
-}
-
-.header_buttonIndex:checked~.header__topicos{
-    display: flex;
-}
-
-.header__topicos__itens__buttonAgendamento{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background-color: var(--Cor_RosaPrinciapal_Dark);
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-}
-
-.header__topicos__itens__buttonAgendamento__logoWhatsapp{
-    height: 23px;
-    width: 23px;
+:root{
+    --Cor_Preto: #000000;
+    --Cor_Branco: #FFFFFF;
+    --Cor_RosaPrinciapal_Normal: #FA61EB;
+    --CorFonte_RosaSecundario_Normal: #C775BF;
+    --Cor_RosaPrinciapal_Dark: #BC49B0;
+    --Cor_RosaPrinciapal_DarkHover: #963A8D;
+    --Cor_RosaPrinciapal_DarkActive:#702C6A;
+    --Cor_RosaPrinciapal_Darker: #582252;
+    --Cor_RosaPrinciapal_LightHover: #FEE7FC;
+    --Cor_RosaPrinciapal_LightActive: #FDCEF9;
 }
