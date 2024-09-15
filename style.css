@@ -1,5 +1,5 @@
-@import url(_variables.css);
-@import url(./styles/header.css);
+@import url(./reponsive.css);
+@import url(styles/header.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 :root{
@@ -13,4 +13,39 @@
     --Cor_RosaPrinciapal_Darker: #582252;
     --Cor_RosaPrinciapal_LightHover: #FEE7FC;
     --Cor_RosaPrinciapal_LightActive: #FDCEF9;
+}
+
+*{
+    font-family: 'Poppins';
+}
+
+@media (min-width: 1440px){
+    .header{
+        justify-content:space-between;
+    }
+    .header__menu{
+        display: none;
+    }
+
+    .header__topicos{
+        display: flex;
+        position: relative;
+        top: 0;
+        padding: 0;
+    }
+
+    .header__topicos__itens{
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .header__buttonAgendamento{
+        display: flex;
+        margin-right: 49px;
+    }
+
+    .header__topicos__itens__buttonAgendamento{
+        display: none;
+    }
 }
