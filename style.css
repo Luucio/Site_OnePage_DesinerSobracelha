@@ -49,3 +49,82 @@
         display: none;
     }
 }
+
+.section1{
+    background-image: url(../img/SectionMobile1_Background.svg);  
+    height: 669.2px;
+    background-repeat: no-repeat;
+}
+
+.section1__conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 19px 25px 82px 25px;
+    align-items: center;
+}
+
+.section1__conteiner__texts{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.section1__conteiner__imagemPrincipal{
+    display: flex;
+    width: 298px;
+    height: 268.64px;
+}
+
+.section1__conteiner__tituloPrincipalSEO{
+    color: var(--CorFonte_RosaSecundario_Normal);
+    font-size: 13.50px;
+    font-weight: 700;
+    margin-top: 49.36px;
+}
+
+.section1__conteiner__tituloPrincipal{
+    margin: 10px 0px 10px 0px;
+    color: var(--Cor_RosaPrinciapal_Darker);
+    font-size: 24px;
+    font-weight:800;
+}
+
+.section1__conteiner__procedimentos{
+    color: var(--CorFonte_RosaSecundario_Normal);
+    font-size: 12px;
+    font-weight:400;
+    margin-bottom: 50px;
+}
+
+.section1__conteiner__buttons{
+    display: flex;
+    gap: 60px;
+}
+
+.section1__conteiner__buttons__botaoWhatsapp{
+    display: flex;
+    background-color: var(--Cor_RosaPrinciapal_Normal);
+    width: 145px;
+    height: 48.48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--Cor_Branco);
+}
+
+.section1__conteiner__buttons__botaoSobreMim{
+    display: flex;
+    background-color: var(--Cor_RosaPrinciapal_Normal);
+    width: 145px;
+    height: 48.48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--Cor_Branco);
+}
+
+
