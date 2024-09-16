@@ -52,7 +52,7 @@
 
 .section1{
     background-image: url(img/SectionMobile1_Background.svg);  
-    height: 669.2px;
+    height: 100dvh;
     background-repeat: no-repeat;
 }
 
