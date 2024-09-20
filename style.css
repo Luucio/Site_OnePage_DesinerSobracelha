@@ -36,13 +36,13 @@
 
     .header__topicos__itens{
         flex-direction: row;
-        gap: 25px;
+        gap: 1.56rem;
         align-items: center;
     }
 
     .header__buttonAgendamento{
         display: flex;
-        margin-right: 49px;
+        margin-right: 3.06rem;
     }
 
     .header__topicos__itens__buttonAgendamento{
@@ -59,7 +59,7 @@
 .section1__conteiner{
     display: flex;
     flex-direction: column;
-    padding: 19px 25px 82px 25px;
+    padding: 1.18rem 1.56rem 5.12rem 1.56rem;
     align-items: center;
 }
 
@@ -71,45 +71,45 @@
 
 .section1__conteiner__imagemPrincipal{
     display: flex;
-    width: 298px;
-    height: 268.64px;
+    width: 18.62rem;
+    height: 16.79rem;
 }
 
 .section1__conteiner__tituloPrincipalSEO{
     color: var(--CorFonte_RosaSecundario_Normal);
-    font-size: 13.50px;
+    font-size: 0.84rem;
     font-weight: 700;
-    margin-top: 49.36px;
+    margin-top: 3.08rem;
 }
 
 .section1__conteiner__tituloPrincipal{
-    margin: 10px 0px 10px 0px;
+    margin: 0.62rem 0px 0.62rem 0px;
     color: var(--Cor_RosaPrinciapal_Darker);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight:800;
 }
 
 .section1__conteiner__procedimentos{
     color: var(--CorFonte_RosaSecundario_Normal);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight:400;
-    margin-bottom: 50px;
+    margin-bottom: 3.12rem;
 }
 
 .section1__conteiner__buttons{
     display: flex;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .section1__conteiner__buttons__botaoWhatsapp{
     display: flex;
     background-color: var(--Cor_RosaPrinciapal_Normal);
-    width: 145px;
-    height: 48.48px;
-    align-items: center;
+    width: 9.06em;
+    height: 3.03em;
+    align-items:center;
     justify-content: center;
-    gap: 10px;
-    border-radius: 10px;
+    gap: 0.62rem;
+    border-radius: 0.62rem;
     text-decoration: none;
     color: var(--Cor_Branco);
 }
@@ -117,11 +117,11 @@
 .section1__conteiner__buttons__botaoSobreMim{
     display: flex;
     background-color: var(--Cor_RosaPrinciapal_Normal);
-    width: 145px;
-    height: 48.48px;
+    width: 9.06em;
+    height: 3.03em;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.62rem;
     border-radius: 10px;
     text-decoration: none;
     color: var(--Cor_Branco);
@@ -141,29 +141,29 @@
 .section2__tituloPrincipal{
     color: var(--Cor_RosaPrinciapal_Dark);
     font-weight: bold;
-    font-size: 25px;
-    padding: 10px 0px 30px 0;
+    font-size: 1.56rem;
+    padding: 0.62rem 0rem 1.87rem 0rem;
 }
 
 .card1{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 304.14px;
-    height: 450px;
+    width: 19em;
+    height: 28.12em;
     border: solid 1px var(--Cor_RosaPrinciapal_Normal);
-    padding: 10px 10px 20px 10px;
+    padding: 0.62rem 0.62rem 1.25rem 0.62rem;
     border-radius: 10px;
     background-color: var(--Cor_RosaPrinciapal_LightActive);
 }
 
 .card1__imagem{
-    width: 300px;
+    width: 18.75em;
 }
 
 .card1__titulo{
-    padding-top: 10px;
-    font-size: 16px;
+    padding-top: 0.62rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--Cor_RosaPrinciapal_Dark);
 }
@@ -171,9 +171,9 @@
 .card1__paragrafo{
     display: flex;
     text-justify:center;
-    font-size: 15px;
+    font-size: 0.93rem;
     font-weight: 500;
     color: var(--Cor_RosaPrinciapal_Darker);
-    padding: 25px ;
+    padding: 1.56rem ;
 }
 
