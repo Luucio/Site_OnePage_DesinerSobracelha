@@ -52,7 +52,7 @@
 
 .section1{
     background-image: url(img/SectionMobile1_Background.svg);  
-    height: 100dvh;
+    height: 90dvh;
     background-repeat: no-repeat;
 }
 
@@ -127,4 +127,53 @@
     color: var(--Cor_Branco);
 }
 
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/SectionMobile2_Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1px var(--Cor_RosaPrinciapal_Darker);
+}
+
+.section2__tituloPrincipal{
+    color: var(--Cor_RosaPrinciapal_Dark);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 0px 30px 0;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 304.14px;
+    height: 450px;
+    border: solid 1px var(--Cor_RosaPrinciapal_Normal);
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    background-color: var(--Cor_RosaPrinciapal_LightActive);
+}
+
+.card1__imagem{
+    width: 300px;
+}
+
+.card1__titulo{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--Cor_RosaPrinciapal_Dark);
+}
+
+.card1__paragrafo{
+    display: flex;
+    text-justify:center;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--Cor_RosaPrinciapal_Darker);
+    padding: 25px ;
+}
 
