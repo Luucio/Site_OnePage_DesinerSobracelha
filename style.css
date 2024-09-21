@@ -141,18 +141,18 @@
 .section2__tituloPrincipal{
     color: var(--Cor_RosaPrinciapal_Dark);
     font-weight: bold;
-    font-size: 1.56rem;
-    padding: 0.62rem 0rem 1.87rem 0rem;
+    font-size: 24.96px;
+    padding: 9.92px 0px 29.92px 0px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 19em;
-    height: 28.12em;
+    width: 304px;
+    height: 449.92px;
     border: solid 1px var(--Cor_RosaPrinciapal_Normal);
-    padding: 0.62rem 0.62rem 1.25rem 0.62rem;
+    padding: 9.92px 9.92px 20px 9.92px;
     border-radius: 10px;
     background-color: var(--Cor_RosaPrinciapal_LightActive);
     margin-left: 1rem;
