@@ -191,7 +191,7 @@
   display: flex;
   scroll-snap-type: x mandatory;
   overflow-x: auto;
-  scroll-behavior: smooth;
+  
   gap: 20vw;           
   padding: 0px 20vw 0px 7vw;
 }
