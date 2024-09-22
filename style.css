@@ -150,7 +150,7 @@
     flex-direction: column;
     text-align: center;
     width: 304px;
-    height: 449.92px;
+    height: 430px;
     border: solid 1px var(--Cor_RosaPrinciapal_Normal);
     padding: 9.92px 9.92px 20px 9.92px;
     border-radius: 10px;
@@ -165,19 +165,20 @@
 }
 
 .card__titulo{
-    padding-top: 0.62rem;
-    font-size: 1rem;
-    font-weight: 700;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
     color: var(--Cor_RosaPrinciapal_Dark);
 }
 
 .card__paragrafo{
     display: flex;
     text-justify:center;
-    font-size: 0.93rem;
+    font-size: 14px;
     font-weight: 500;
     color: var(--Cor_RosaPrinciapal_Darker);
-    padding: 1.56rem ;
+    margin: 30px 5px 15px 5px;
+    
 }
 
 .section2__carrosel{
@@ -191,9 +192,33 @@
   display: flex;
   scroll-snap-type: x mandatory;
   overflow-x: auto;
-  
   gap: 20vw;           
   padding: 0px 20vw 0px 7vw;
+}
+
+.section2__button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: solid 1px var(--Cor_RosaPrinciapal_Normal);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 4rem;
+    margin-bottom: 3.5rem;
+    background-color: var(--Cor_RosaPrinciapal_Normal);
+    text-decoration: none;
+    color: var(--Cor_Branco);
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.section2__button:hover{
+    transform: scale(2px);
+}
+
+.section2__button__imagem{
+    width: 41px;
+    height: 44px;
 }
 
 
